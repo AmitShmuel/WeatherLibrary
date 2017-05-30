@@ -1,4 +1,4 @@
-﻿### Weather Library For Developers
+### Weather Library For Developers
 
 Welcome, this library was developed in order to help C# developers easily retrieve weather data from different places around the world. 
 
@@ -6,4 +6,4 @@ The project was developed in the Programming Languages course instructed by [Mr.
 
 © 2017 - The Dept. of Software Engineering, Shenkar: Engineering. Design. Art.
 
-![Class Diagram](/docs/ClassDiagram.PNG)
+![Class Diagram](/ClassDiagram.PNG)
