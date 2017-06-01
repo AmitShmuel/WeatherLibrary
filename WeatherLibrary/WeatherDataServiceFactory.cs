@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WeatherLibrary
 {
-    abstract class WeatherDataServiceFactory
+    static class WeatherDataServiceFactory
     {
         public static IWeatherDataService GetWeatherDataService(WeatherDataKind kind)
         {

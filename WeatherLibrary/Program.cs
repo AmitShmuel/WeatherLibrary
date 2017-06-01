@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WeatherLibrary;
 
-namespace WeatherLibrary
+namespace MainProgram
 {
     class Program
     {
@@ -12,6 +13,14 @@ namespace WeatherLibrary
         {
             IWeatherDataService service = WeatherDataServiceFactory.GetWeatherDataService(
                                                             WeatherDataServiceFactory.WeatherDataKind.OPEN_WEATHER_MAP);
+            try
+            {
+                WeatherData data = service.GetWeatherData(new Location("Hod Hasharon", "Israel"));
+            }
+            catch (NotImplementedException)
+            {
+                Console.WriteLine("Haven't implemented yet !");
+            }
         }
     }
 }

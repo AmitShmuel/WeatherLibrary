@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WeatherLibrary
 {
-    public sealed class OpenWeatherMapService : IWeatherDataService
+    sealed class OpenWeatherMapService : IWeatherDataService
     {
         private static readonly OpenWeatherMapService instance = new OpenWeatherMapService();
 
