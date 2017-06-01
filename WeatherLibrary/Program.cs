@@ -17,9 +17,9 @@ namespace MainProgram
             {
                 WeatherData data = service.GetWeatherData(new Location("Hod Hasharon", "Israel"));
             }
-            catch (NotImplementedException)
+            catch (WeatherDataServiceException e)
             {
-                Console.WriteLine("Haven't implemented yet !");
+                Console.WriteLine(e.Message);
             }
         }
     }

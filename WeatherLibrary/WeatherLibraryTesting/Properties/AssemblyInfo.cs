@@ -5,17 +5,14 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WeatherLibrary")]
+[assembly: AssemblyTitle("WeatherLibraryTesting")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WeatherLibrary")]
+[assembly: AssemblyProduct("WeatherLibraryTesting")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
-
-// Enabling unit tests for internal modifier componenets
-[assembly: InternalsVisibleTo("WeatherLibraryTests")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
 // to COM components.  If you need to access a type in this assembly from 
@@ -23,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("3bc18d83-52b6-46b5-87e3-1ad981d2c29b")]
+[assembly: Guid("fb2dd456-ccc4-441e-9baa-cb3ff72f3120")]
 
 // Version information for an assembly consists of the following four values:
 //

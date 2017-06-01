@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WeatherLibrary
 {
-    class Location
+    public class Location
     {
         public string Name { get; set; }
         public string Country { get; set; }
