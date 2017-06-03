@@ -1,10 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using WeatherLibrary;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace WeatherLibrary.Tests
 {
@@ -17,7 +11,7 @@ namespace WeatherLibrary.Tests
             IWeatherDataService service = WeatherDataServiceFactory.GetWeatherDataService(
                                                             WeatherDataServiceFactory.WeatherDataKind.OPEN_WEATHER_MAP);
 
-            Location location = new Location("Hod Hasharon", "Israel");
+            Location location = new Location("Hod Hasharon", "IL");
 
             WeatherData data = null;
             try
@@ -29,10 +23,11 @@ namespace WeatherLibrary.Tests
                 Assert.Fail();
             }
 
-            Assert.AreEqual(location.Name, data.Location.Name);
-            Assert.AreEqual(location.Country, data.Location.Country);
-
-            // can maybe use Assert.AreEqual(location, data.Location);
+            Assert.IsNotNull(data.Location);
+            Assert.AreEqual(location.Name.ToLower(), data.Location.Name.ToLower());
+            Assert.AreEqual(location.Country.ToLower(), data.Location.Country.ToLower());
+            Assert.IsNotNull(data.Sun);
+            Assert.AreEqual(data.forecast.Count, 40);
         }
     }
 }

@@ -44,12 +44,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="WeatherLibrary\IWeatherDataService.cs" />
-    <Compile Include="WeatherLibrary\Location.cs" />
+    <Compile Include="WeatherLibrary\WeatherData\Location.cs" />
     <Compile Include="WeatherLibrary\OpenWeatherMapService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils\RequestUtil.cs" />
-    <Compile Include="WeatherLibrary\WeatherData.cs" />
+    <Compile Include="WeatherLibrary\WeatherData\Sun.cs" />
+    <Compile Include="WeatherLibrary\WeatherData\Time.cs" />
+    <Compile Include="WeatherLibrary\WeatherData\WeatherData.cs" />
     <Compile Include="WeatherLibrary\WeatherDataServiceException.cs" />
     <Compile Include="WeatherLibrary\WeatherDataServiceFactory.cs" />
   </ItemGroup>

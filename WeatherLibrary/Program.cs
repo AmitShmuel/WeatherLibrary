@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using WeatherLibrary;
 
 namespace MainProgram
@@ -16,11 +12,12 @@ namespace MainProgram
             try
             {
                 WeatherData data = service.GetWeatherData(new Location("Hod Hasharon", "Israel"));
+                Console.WriteLine(data);
             }
             catch (WeatherDataServiceException e)
             {
-                Console.WriteLine(e.Message);
+                Console.WriteLine(e.Message + "\n" + e.StackTrace);
             }
         }
     }
-}
+}       

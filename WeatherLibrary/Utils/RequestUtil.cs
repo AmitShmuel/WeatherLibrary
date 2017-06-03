@@ -1,6 +1,7 @@
 ﻿using System;
+using System.IO;
 using System.Net;
-using System.Xml;
+using System.Xml.Linq;
 
 namespace Utils
 {
@@ -16,21 +17,24 @@ namespace Utils
         /// <param name="requestUrl">The URL request to the web service</param>
         /// <returns>XML document describing the request</returns>
         /// <exception cref="Exception">Request could not be made.</exception>
-        public static XmlDocument WebServiceRequest(string requestUrl)
+        public static XDocument XmlWebServiceRequest(string requestUrl)
         {
             try
             {
                 HttpWebRequest request = WebRequest.Create(requestUrl) as HttpWebRequest;
                 HttpWebResponse response = request.GetResponse() as HttpWebResponse;
 
-                XmlDocument xmlDoc = new XmlDocument();
-                xmlDoc.Load(response.GetResponseStream());
-                return (xmlDoc);
+                return XDocument.Load(new StreamReader(response.GetResponseStream()));
 
+                /*
+                 * if too many requests have been made and the web service blocked access,
+                 * you can use a txt file containing the xml data
+                 */
+                //return XDocument.Load(new StreamReader(@"weatherdata.txt"));
             }
             catch (Exception e)
             {
-                Console.WriteLine(e.Message);
+                Console.WriteLine(e.StackTrace);
                 throw e;
             }
         }

@@ -1,0 +1,418 @@
+<weatherdata>
+  <location>
+    <name>Hod HaSharon</name>
+    <type></type>
+    <country>IL</country>
+    <timezone></timezone>
+    <location altitude="0" latitude="32.1508" longitude="34.8883" geobase="geonames" geobaseid="294760"></location>
+  </location>
+  <credit></credit>
+  <meta>
+    <lastupdate></lastupdate>
+    <calctime>0.0022</calctime>
+    <nextupdate></nextupdate>
+  </meta>
+  <sun rise="2017-06-02T02:34:22" set="2017-06-02T16:43:04"></sun>
+  <forecast>
+    <time from="2017-06-02T21:00:00" to="2017-06-03T00:00:00">
+      <symbol number="800" name="clear sky" var="01n"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="194.502" code="SSW" name="South-southwest"></windDirection>
+      <windSpeed mps="1.56" name=""></windSpeed>
+      <temperature unit="kelvin" value="293.27" min="293.056" max="293.27"></temperature>
+      <pressure unit="hPa" value="1022.6"></pressure>
+      <humidity value="100" unit="%"></humidity>
+      <clouds value="clear sky" all="0" unit="%"></clouds>
+    </time>
+    <time from="2017-06-03T00:00:00" to="2017-06-03T03:00:00">
+      <symbol number="800" name="clear sky" var="01d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="192.003" code="SSW" name="South-southwest"></windDirection>
+      <windSpeed mps="1.66" name="Light breeze"></windSpeed>
+      <temperature unit="kelvin" value="292.81" min="292.669" max="292.81"></temperature>
+      <pressure unit="hPa" value="1022.89"></pressure>
+      <humidity value="100" unit="%"></humidity>
+      <clouds value="clear sky" all="0" unit="%"></clouds>
+    </time>
+    <time from="2017-06-03T03:00:00" to="2017-06-03T06:00:00">
+      <symbol number="800" name="clear sky" var="02d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="171.501" code="S" name="South"></windDirection>
+      <windSpeed mps="1.96" name="Light breeze"></windSpeed>
+      <temperature unit="kelvin" value="295.48" min="295.415" max="295.48"></temperature>
+      <pressure unit="hPa" value="1023.99"></pressure>
+      <humidity value="100" unit="%"></humidity>
+      <clouds value="clear sky" all="8" unit="%"></clouds>
+    </time>
+    <time from="2017-06-03T06:00:00" to="2017-06-03T09:00:00">
+      <symbol number="800" name="clear sky" var="01d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="262.503" code="W" name="West"></windDirection>
+      <windSpeed mps="2.91" name="Light breeze"></windSpeed>
+      <temperature unit="kelvin" value="297.53" min="297.53" max="297.53"></temperature>
+      <pressure unit="hPa" value="1023.63"></pressure>
+      <humidity value="88" unit="%"></humidity>
+      <clouds value="clear sky" all="0" unit="%"></clouds>
+    </time>
+    <time from="2017-06-03T09:00:00" to="2017-06-03T12:00:00">
+      <symbol number="800" name="clear sky" var="01d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="298.501" code="WNW" name="West-northwest"></windDirection>
+      <windSpeed mps="4.01" name="Gentle Breeze"></windSpeed>
+      <temperature unit="kelvin" value="297.551" min="297.551" max="297.551"></temperature>
+      <pressure unit="hPa" value="1022.63"></pressure>
+      <humidity value="87" unit="%"></humidity>
+      <clouds value="clear sky" all="0" unit="%"></clouds>
+    </time>
+    <time from="2017-06-03T12:00:00" to="2017-06-03T15:00:00">
+      <symbol number="800" name="clear sky" var="01d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="333.002" code="NNW" name="North-northeast"></windDirection>
+      <windSpeed mps="3.92" name="Gentle Breeze"></windSpeed>
+      <temperature unit="kelvin" value="297.062" min="297.062" max="297.062"></temperature>
+      <pressure unit="hPa" value="1021.38"></pressure>
+      <humidity value="90" unit="%"></humidity>
+      <clouds value="clear sky" all="0" unit="%"></clouds>
+    </time>
+    <time from="2017-06-03T15:00:00" to="2017-06-03T18:00:00">
+      <symbol number="800" name="clear sky" var="02n"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="345.006" code="NNW" name="North-northeast"></windDirection>
+      <windSpeed mps="3.61" name="Gentle Breeze"></windSpeed>
+      <temperature unit="kelvin" value="295.109" min="295.109" max="295.109"></temperature>
+      <pressure unit="hPa" value="1021.58"></pressure>
+      <humidity value="100" unit="%"></humidity>
+      <clouds value="clear sky" all="8" unit="%"></clouds>
+    </time>
+    <time from="2017-06-03T18:00:00" to="2017-06-03T21:00:00">
+      <symbol number="800" name="clear sky" var="01n"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="343.002" code="NNW" name="North-northeast"></windDirection>
+      <windSpeed mps="2.26" name="Light breeze"></windSpeed>
+      <temperature unit="kelvin" value="293.924" min="293.924" max="293.924"></temperature>
+      <pressure unit="hPa" value="1021.73"></pressure>
+      <humidity value="100" unit="%"></humidity>
+      <clouds value="clear sky" all="0" unit="%"></clouds>
+    </time>
+    <time from="2017-06-03T21:00:00" to="2017-06-04T00:00:00">
+      <symbol number="801" name="few clouds" var="02n"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="333.001" code="NNW" name="North-northeast"></windDirection>
+      <windSpeed mps="0.91" name="Calm"></windSpeed>
+      <temperature unit="kelvin" value="293.226" min="293.226" max="293.226"></temperature>
+      <pressure unit="hPa" value="1021.25"></pressure>
+      <humidity value="100" unit="%"></humidity>
+      <clouds value="few clouds" all="12" unit="%"></clouds>
+    </time>
+    <time from="2017-06-04T00:00:00" to="2017-06-04T03:00:00">
+      <symbol number="800" name="clear sky" var="01d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="226.008" code="SW" name="Southwest"></windDirection>
+      <windSpeed mps="0.88" name="Calm"></windSpeed>
+      <temperature unit="kelvin" value="292.915" min="292.915" max="292.915"></temperature>
+      <pressure unit="hPa" value="1021.29"></pressure>
+      <humidity value="100" unit="%"></humidity>
+      <clouds value="clear sky" all="0" unit="%"></clouds>
+    </time>
+    <time from="2017-06-04T03:00:00" to="2017-06-04T06:00:00">
+      <symbol number="800" name="clear sky" var="01d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="241.003" code="WSW" name="West-southwest"></windDirection>
+      <windSpeed mps="1.76" name="Light breeze"></windSpeed>
+      <temperature unit="kelvin" value="295.787" min="295.787" max="295.787"></temperature>
+      <pressure unit="hPa" value="1022.45"></pressure>
+      <humidity value="100" unit="%"></humidity>
+      <clouds value="clear sky" all="0" unit="%"></clouds>
+    </time>
+    <time from="2017-06-04T06:00:00" to="2017-06-04T09:00:00">
+      <symbol number="800" name="clear sky" var="01d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="285.501" code="WNW" name="West-northwest"></windDirection>
+      <windSpeed mps="3.76" name="Gentle Breeze"></windSpeed>
+      <temperature unit="kelvin" value="297.039" min="297.039" max="297.039"></temperature>
+      <pressure unit="hPa" value="1022.36"></pressure>
+      <humidity value="91" unit="%"></humidity>
+      <clouds value="clear sky" all="0" unit="%"></clouds>
+    </time>
+    <time from="2017-06-04T09:00:00" to="2017-06-04T12:00:00">
+      <symbol number="800" name="clear sky" var="01d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="315.501" code="NW" name="Northwest"></windDirection>
+      <windSpeed mps="4.46" name="Gentle Breeze"></windSpeed>
+      <temperature unit="kelvin" value="297.569" min="297.569" max="297.569"></temperature>
+      <pressure unit="hPa" value="1021.22"></pressure>
+      <humidity value="87" unit="%"></humidity>
+      <clouds value="clear sky" all="0" unit="%"></clouds>
+    </time>
+    <time from="2017-06-04T12:00:00" to="2017-06-04T15:00:00">
+      <symbol number="802" name="scattered clouds" var="03d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="334.004" code="NNW" name="North-northeast"></windDirection>
+      <windSpeed mps="4.77" name="Gentle Breeze"></windSpeed>
+      <temperature unit="kelvin" value="296.786" min="296.786" max="296.786"></temperature>
+      <pressure unit="hPa" value="1020.39"></pressure>
+      <humidity value="92" unit="%"></humidity>
+      <clouds value="scattered clouds" all="44" unit="%"></clouds>
+    </time>
+    <time from="2017-06-04T15:00:00" to="2017-06-04T18:00:00">
+      <symbol number="800" name="clear sky" var="01n"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="338.001" code="NNW" name="North-northeast"></windDirection>
+      <windSpeed mps="3.21" name="Light breeze"></windSpeed>
+      <temperature unit="kelvin" value="294.949" min="294.949" max="294.949"></temperature>
+      <pressure unit="hPa" value="1020.95"></pressure>
+      <humidity value="100" unit="%"></humidity>
+      <clouds value="clear sky" all="0" unit="%"></clouds>
+    </time>
+    <time from="2017-06-04T18:00:00" to="2017-06-04T21:00:00">
+      <symbol number="800" name="clear sky" var="01n"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="336.501" code="NNW" name="North-northeast"></windDirection>
+      <windSpeed mps="1.88" name="Light breeze"></windSpeed>
+      <temperature unit="kelvin" value="293.799" min="293.799" max="293.799"></temperature>
+      <pressure unit="hPa" value="1021.2"></pressure>
+      <humidity value="100" unit="%"></humidity>
+      <clouds value="clear sky" all="0" unit="%"></clouds>
+    </time>
+    <time from="2017-06-04T21:00:00" to="2017-06-05T00:00:00">
+      <symbol number="800" name="clear sky" var="01n"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="310.003" code="NW" name="Northwest"></windDirection>
+      <windSpeed mps="1.68" name="Light breeze"></windSpeed>
+      <temperature unit="kelvin" value="293.248" min="293.248" max="293.248"></temperature>
+      <pressure unit="hPa" value="1020.86"></pressure>
+      <humidity value="100" unit="%"></humidity>
+      <clouds value="clear sky" all="0" unit="%"></clouds>
+    </time>
+    <time from="2017-06-05T00:00:00" to="2017-06-05T03:00:00">
+      <symbol number="800" name="clear sky" var="01d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="65.0069" code="ENE" name="East-northeast"></windDirection>
+      <windSpeed mps="0.81" name="Calm"></windSpeed>
+      <temperature unit="kelvin" value="292.881" min="292.881" max="292.881"></temperature>
+      <pressure unit="hPa" value="1020.99"></pressure>
+      <humidity value="100" unit="%"></humidity>
+      <clouds value="clear sky" all="0" unit="%"></clouds>
+    </time>
+    <time from="2017-06-05T03:00:00" to="2017-06-05T06:00:00">
+      <symbol number="800" name="clear sky" var="01d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="141.008" code="SE" name="SouthEast"></windDirection>
+      <windSpeed mps="1.39" name="Calm"></windSpeed>
+      <temperature unit="kelvin" value="296.039" min="296.039" max="296.039"></temperature>
+      <pressure unit="hPa" value="1021.8"></pressure>
+      <humidity value="97" unit="%"></humidity>
+      <clouds value="clear sky" all="0" unit="%"></clouds>
+    </time>
+    <time from="2017-06-05T06:00:00" to="2017-06-05T09:00:00">
+      <symbol number="800" name="clear sky" var="01d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="283.501" code="WNW" name="West-northwest"></windDirection>
+      <windSpeed mps="2.26" name="Light breeze"></windSpeed>
+      <temperature unit="kelvin" value="297.877" min="297.877" max="297.877"></temperature>
+      <pressure unit="hPa" value="1021.94"></pressure>
+      <humidity value="86" unit="%"></humidity>
+      <clouds value="clear sky" all="0" unit="%"></clouds>
+    </time>
+    <time from="2017-06-05T09:00:00" to="2017-06-05T12:00:00">
+      <symbol number="800" name="clear sky" var="01d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="307.001" code="NW" name="Northwest"></windDirection>
+      <windSpeed mps="4.46" name="Gentle Breeze"></windSpeed>
+      <temperature unit="kelvin" value="298.326" min="298.326" max="298.326"></temperature>
+      <pressure unit="hPa" value="1021.21"></pressure>
+      <humidity value="82" unit="%"></humidity>
+      <clouds value="clear sky" all="0" unit="%"></clouds>
+    </time>
+    <time from="2017-06-05T12:00:00" to="2017-06-05T15:00:00">
+      <symbol number="800" name="clear sky" var="01d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="338.003" code="NNW" name="North-northeast"></windDirection>
+      <windSpeed mps="5.41" name=""></windSpeed>
+      <temperature unit="kelvin" value="297.536" min="297.536" max="297.536"></temperature>
+      <pressure unit="hPa" value="1020.87"></pressure>
+      <humidity value="86" unit="%"></humidity>
+      <clouds value="clear sky" all="0" unit="%"></clouds>
+    </time>
+    <time from="2017-06-05T15:00:00" to="2017-06-05T18:00:00">
+      <symbol number="800" name="clear sky" var="01n"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="1.0061" code="N" name="North"></windDirection>
+      <windSpeed mps="3.01" name="Light breeze"></windSpeed>
+      <temperature unit="kelvin" value="295.779" min="295.779" max="295.779"></temperature>
+      <pressure unit="hPa" value="1021.24"></pressure>
+      <humidity value="97" unit="%"></humidity>
+      <clouds value="clear sky" all="0" unit="%"></clouds>
+    </time>
+    <time from="2017-06-05T18:00:00" to="2017-06-05T21:00:00">
+      <symbol number="800" name="clear sky" var="01n"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="0.501709" code="N" name="North"></windDirection>
+      <windSpeed mps="2.31" name="Light breeze"></windSpeed>
+      <temperature unit="kelvin" value="294.553" min="294.553" max="294.553"></temperature>
+      <pressure unit="hPa" value="1021.14"></pressure>
+      <humidity value="100" unit="%"></humidity>
+      <clouds value="clear sky" all="0" unit="%"></clouds>
+    </time>
+    <time from="2017-06-05T21:00:00" to="2017-06-06T00:00:00">
+      <symbol number="800" name="clear sky" var="01n"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="70.5002" code="ENE" name="East-northeast"></windDirection>
+      <windSpeed mps="2.12" name="Light breeze"></windSpeed>
+      <temperature unit="kelvin" value="294.106" min="294.106" max="294.106"></temperature>
+      <pressure unit="hPa" value="1019.36"></pressure>
+      <humidity value="100" unit="%"></humidity>
+      <clouds value="clear sky" all="0" unit="%"></clouds>
+    </time>
+    <time from="2017-06-06T00:00:00" to="2017-06-06T03:00:00">
+      <symbol number="800" name="clear sky" var="01d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="53.0044" code="NE" name="NorthEast"></windDirection>
+      <windSpeed mps="2.16" name="Light breeze"></windSpeed>
+      <temperature unit="kelvin" value="293.981" min="293.981" max="293.981"></temperature>
+      <pressure unit="hPa" value="1019.53"></pressure>
+      <humidity value="100" unit="%"></humidity>
+      <clouds value="clear sky" all="0" unit="%"></clouds>
+    </time>
+    <time from="2017-06-06T03:00:00" to="2017-06-06T06:00:00">
+      <symbol number="800" name="clear sky" var="01d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="63.0005" code="ENE" name="East-northeast"></windDirection>
+      <windSpeed mps="2.5" name="Light breeze"></windSpeed>
+      <temperature unit="kelvin" value="299.043" min="299.043" max="299.043"></temperature>
+      <pressure unit="hPa" value="1019.79"></pressure>
+      <humidity value="77" unit="%"></humidity>
+      <clouds value="clear sky" all="0" unit="%"></clouds>
+    </time>
+    <time from="2017-06-06T06:00:00" to="2017-06-06T09:00:00">
+      <symbol number="800" name="clear sky" var="01d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="343.501" code="NNW" name="North-northeast"></windDirection>
+      <windSpeed mps="2.95" name="Light breeze"></windSpeed>
+      <temperature unit="kelvin" value="301.791" min="301.791" max="301.791"></temperature>
+      <pressure unit="hPa" value="1019.59"></pressure>
+      <humidity value="67" unit="%"></humidity>
+      <clouds value="clear sky" all="0" unit="%"></clouds>
+    </time>
+    <time from="2017-06-06T09:00:00" to="2017-06-06T12:00:00">
+      <symbol number="800" name="clear sky" var="01d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="355.003" code="" name=""></windDirection>
+      <windSpeed mps="5.72" name="Moderate breeze"></windSpeed>
+      <temperature unit="kelvin" value="301.252" min="301.252" max="301.252"></temperature>
+      <pressure unit="hPa" value="1019.21"></pressure>
+      <humidity value="68" unit="%"></humidity>
+      <clouds value="clear sky" all="0" unit="%"></clouds>
+    </time>
+    <time from="2017-06-06T12:00:00" to="2017-06-06T15:00:00">
+      <symbol number="800" name="clear sky" var="01d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="5.00107" code="N" name="North"></windDirection>
+      <windSpeed mps="5.23" name="Gentle Breeze"></windSpeed>
+      <temperature unit="kelvin" value="301.058" min="301.058" max="301.058"></temperature>
+      <pressure unit="hPa" value="1018.6"></pressure>
+      <humidity value="69" unit="%"></humidity>
+      <clouds value="clear sky" all="0" unit="%"></clouds>
+    </time>
+    <time from="2017-06-06T15:00:00" to="2017-06-06T18:00:00">
+      <symbol number="800" name="clear sky" var="01n"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="30.0032" code="NNE" name="North-northeast"></windDirection>
+      <windSpeed mps="3.86" name="Gentle Breeze"></windSpeed>
+      <temperature unit="kelvin" value="299.042" min="299.042" max="299.042"></temperature>
+      <pressure unit="hPa" value="1018.37"></pressure>
+      <humidity value="79" unit="%"></humidity>
+      <clouds value="clear sky" all="0" unit="%"></clouds>
+    </time>
+    <time from="2017-06-06T18:00:00" to="2017-06-06T21:00:00">
+      <symbol number="800" name="clear sky" var="01n"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="64.0003" code="ENE" name="East-northeast"></windDirection>
+      <windSpeed mps="3.42" name="Gentle Breeze"></windSpeed>
+      <temperature unit="kelvin" value="298.828" min="298.828" max="298.828"></temperature>
+      <pressure unit="hPa" value="1017.75"></pressure>
+      <humidity value="78" unit="%"></humidity>
+      <clouds value="clear sky" all="0" unit="%"></clouds>
+    </time>
+    <time from="2017-06-06T21:00:00" to="2017-06-07T00:00:00">
+      <symbol number="800" name="clear sky" var="01n"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="73.0074" code="ENE" name="East-northeast"></windDirection>
+      <windSpeed mps="3.73" name="Gentle Breeze"></windSpeed>
+      <temperature unit="kelvin" value="298.619" min="298.619" max="298.619"></temperature>
+      <pressure unit="hPa" value="1016.92"></pressure>
+      <humidity value="79" unit="%"></humidity>
+      <clouds value="clear sky" all="0" unit="%"></clouds>
+    </time>
+    <time from="2017-06-07T00:00:00" to="2017-06-07T03:00:00">
+      <symbol number="800" name="clear sky" var="01d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="65.0019" code="ENE" name="East-northeast"></windDirection>
+      <windSpeed mps="2.64" name="Light breeze"></windSpeed>
+      <temperature unit="kelvin" value="297.988" min="297.988" max="297.988"></temperature>
+      <pressure unit="hPa" value="1017.4"></pressure>
+      <humidity value="82" unit="%"></humidity>
+      <clouds value="clear sky" all="0" unit="%"></clouds>
+    </time>
+    <time from="2017-06-07T03:00:00" to="2017-06-07T06:00:00">
+      <symbol number="800" name="clear sky" var="01d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="71.0073" code="ENE" name="East-northeast"></windDirection>
+      <windSpeed mps="3.11" name="Light breeze"></windSpeed>
+      <temperature unit="kelvin" value="302.14" min="302.14" max="302.14"></temperature>
+      <pressure unit="hPa" value="1018.53"></pressure>
+      <humidity value="65" unit="%"></humidity>
+      <clouds value="clear sky" all="0" unit="%"></clouds>
+    </time>
+    <time from="2017-06-07T06:00:00" to="2017-06-07T09:00:00">
+      <symbol number="800" name="clear sky" var="01d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="36.5017" code="NE" name="NorthEast"></windDirection>
+      <windSpeed mps="1.66" name="Light breeze"></windSpeed>
+      <temperature unit="kelvin" value="304.083" min="304.083" max="304.083"></temperature>
+      <pressure unit="hPa" value="1018.43"></pressure>
+      <humidity value="59" unit="%"></humidity>
+      <clouds value="clear sky" all="0" unit="%"></clouds>
+    </time>
+    <time from="2017-06-07T09:00:00" to="2017-06-07T12:00:00">
+      <symbol number="800" name="clear sky" var="01d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="315.502" code="NW" name="Northwest"></windDirection>
+      <windSpeed mps="2.12" name="Light breeze"></windSpeed>
+      <temperature unit="kelvin" value="304.458" min="304.458" max="304.458"></temperature>
+      <pressure unit="hPa" value="1017.53"></pressure>
+      <humidity value="58" unit="%"></humidity>
+      <clouds value="clear sky" all="0" unit="%"></clouds>
+    </time>
+    <time from="2017-06-07T12:00:00" to="2017-06-07T15:00:00">
+      <symbol number="800" name="clear sky" var="01d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="315.005" code="NW" name="Northwest"></windDirection>
+      <windSpeed mps="1.82" name="Light breeze"></windSpeed>
+      <temperature unit="kelvin" value="303.495" min="303.495" max="303.495"></temperature>
+      <pressure unit="hPa" value="1016.59"></pressure>
+      <humidity value="59" unit="%"></humidity>
+      <clouds value="clear sky" all="0" unit="%"></clouds>
+    </time>
+    <time from="2017-06-07T15:00:00" to="2017-06-07T18:00:00">
+      <symbol number="800" name="clear sky" var="01n"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="3.00909" code="N" name="North"></windDirection>
+      <windSpeed mps="1.49" name="Calm"></windSpeed>
+      <temperature unit="kelvin" value="299.757" min="299.757" max="299.757"></temperature>
+      <pressure unit="hPa" value="1016.94"></pressure>
+      <humidity value="78" unit="%"></humidity>
+      <clouds value="clear sky" all="0" unit="%"></clouds>
+    </time>
+    <time from="2017-06-07T18:00:00" to="2017-06-07T21:00:00">
+      <symbol number="800" name="clear sky" var="02n"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="207.001" code="SSW" name="South-southwest"></windDirection>
+      <windSpeed mps="0.98" name="Calm"></windSpeed>
+      <temperature unit="kelvin" value="298.307" min="298.307" max="298.307"></temperature>
+      <pressure unit="hPa" value="1017.74"></pressure>
+      <humidity value="83" unit="%"></humidity>
+      <clouds value="clear sky" all="8" unit="%"></clouds>
+    </time>
+  </forecast>
+</weatherdata>
