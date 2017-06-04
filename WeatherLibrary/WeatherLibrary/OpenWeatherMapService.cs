@@ -5,6 +5,10 @@ using Utils;
 
 namespace WeatherLibrary
 {
+    /// <summary>
+    /// Represents a singleton weather service which retrieves different kinds of weather data.
+    /// http://openweathermap.org.
+    /// </summary>
     sealed class OpenWeatherMapService : IWeatherDataService
     {
         private const string key = "ae36efe63a42b75d9696d52d73497acf";
@@ -17,6 +21,9 @@ namespace WeatherLibrary
 
         private OpenWeatherMapService() { }
 
+        /// <summary>
+        /// A property to retrieve the singleton instance.
+        /// </summary>
         public static OpenWeatherMapService Instance
         {
             get
@@ -40,11 +47,22 @@ namespace WeatherLibrary
             }
         }
 
+        /// <summary>
+        /// Creates a string representing the url request sent to the service.
+        /// </summary>
+        /// <param name="request">The initial url request.</param>
+        /// <param name="query">The query for the request.</param>
+        /// <returns>A string representing the url request.</returns>
         private string CreateRequest(string request, string query)
         {
             return request + query + "&mode=xml" + "&appid=" + key;
         }
 
+        /// <summary>
+        /// Proccesses the XML response and creating a WeatherData object out of it.
+        /// </summary>
+        /// <param name="weatherDataResponse">The XML document to be proccessed.</param>
+        /// <returns>WeatherData object containing the data from the XML.</returns>
         private WeatherData ProcessResponse(XDocument weatherDataResponse)
         {
             WeatherData data = new WeatherData();

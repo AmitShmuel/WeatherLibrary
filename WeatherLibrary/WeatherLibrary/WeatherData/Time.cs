@@ -1,5 +1,8 @@
 ﻿namespace WeatherLibrary
 {
+    /// <summary>
+    /// Represents a forecast of specific date and time.
+    /// </summary>
     class Time
     {
         public string FromTime { get; set; }

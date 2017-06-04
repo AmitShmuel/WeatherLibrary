@@ -3,7 +3,10 @@ using WeatherLibrary;
 
 namespace MainProgram
 {
-    class Program
+    /// <summary>
+    /// Demo Class using the WeatherLibrary library.
+    /// </summary>
+    class WeatherLibraryDemoProgram
     {
         static void Main(string[] args)
         {

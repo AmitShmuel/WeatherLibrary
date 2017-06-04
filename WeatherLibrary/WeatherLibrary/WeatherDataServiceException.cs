@@ -1,11 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace WeatherLibrary
 {
+    /// <summary>
+    /// Represents exceptions created from this library.
+    /// </summary>
     public class WeatherDataServiceException : Exception
     {
         public WeatherDataServiceException()

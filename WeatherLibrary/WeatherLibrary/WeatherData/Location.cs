@@ -1,5 +1,8 @@
 ﻿namespace WeatherLibrary
 {
+    /// <summary>
+    /// Represents the location of the weather data.
+    /// </summary>
     class Location
     {
         public string Name { get; set; }

@@ -6,7 +6,7 @@ using System.Xml.Linq;
 namespace Utils
 {
     /// <summary>
-    /// This class is used to make different requests 
+    /// This class is used to make different requests
     /// to resources such as web services, filers, data bases, etc.
     /// </summary>
     static class RequestUtil
@@ -14,8 +14,8 @@ namespace Utils
         /// <summary>
         /// Returns an XML document response from a web service.
         /// </summary>
-        /// <param name="requestUrl">The URL request to the web service</param>
-        /// <returns>XML document describing the request</returns>
+        /// <param name="requestUrl">The URL request to the web service.</param>
+        /// <returns>XML document describing the request.</returns>
         /// <exception cref="Exception">Request could not be made.</exception>
         public static XDocument XmlWebServiceRequest(string requestUrl)
         {
