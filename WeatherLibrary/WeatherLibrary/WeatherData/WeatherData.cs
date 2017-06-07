@@ -1,47 +1,28 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Text;
-
-namespace WeatherLibrary
+﻿namespace WeatherLibrary
 {
     /// <summary>
     /// Represents a weather data XML DOM from http://openweathermap.org.
     /// </summary>
-    class WeatherData : IEnumerable
+    class WeatherData
     {
-        /// <summary>
-        /// Location the data refers to.
-        /// </summary>
-        public Location Location { get; set; }
-
-        /// <summary>
-        /// Sun set and sun rise times.
-        /// </summary>
-        public Sun Sun { get; set; }
-
-        /// <summary>
-        /// A 5 day / 3 hour weather forecast
-        /// </summary>
-        public List<Time> forecast = new List<Time>();
-
-        public IEnumerator GetEnumerator()
-        {
-            return forecast.GetEnumerator();
-        }
+        public Location Location{ get; set; }
+        public TimeSpan TimeSpan { get; set; }
+        public Temperature Temperature { get; set; }
+        public Humidity Humidity { get; set; }
+        public Pressure Pressure { get; set; }
+        public Wind Wind { get; set; }
+        public Clouds Clouds { get; set; }
 
         public override string ToString()
         {
-            StringBuilder sb = new StringBuilder();
-
-            sb.Append(Location.ToString()).AppendLine()
-              .Append(Sun.ToString()).AppendLine();
-
-            foreach (Time t in forecast)
-            {
-                sb.Append(t.ToString()).AppendLine();
-            }
-
-            return sb.ToString();
+            return TimeSpan + "\n" +
+                Location + "\n" +
+                Temperature + "\n" +
+                Humidity + "\n" +
+                Pressure + "\n" +
+                Wind + "\n" +
+                Clouds + "\n" +
+                "--------------------------------------------------------\n";
         }
     }
 }

@@ -5,13 +5,12 @@
     /// </summary>
     class Location
     {
+        public string Id { get; set; }
         public string Name { get; set; }
-        public string Country { get; set; }
-        public string Altitude { get; set; }
-        public string Latitude { get; set; }
         public string Longitude { get; set; }
-        public string Geobase { get; set; }
-        public string Geobaseid { get; set; }
+        public string Latitude { get; set; }
+        public string Country { get; set; }
+        public Sun Sun { get; set; }
 
         public Location(string name, string country)
         {
@@ -19,20 +18,21 @@
             Country = country;
         }
 
-        public Location(string name, string country, string altitude, string latitude, string longitude, string geobase, string geobaseid) 
-            : this(name, country)
+        public Location(string id, string name, string longitude, string latitude, string country, Sun sun)
         {
-            Altitude = altitude;
+            Id = id;
+            Name = name;
+            Longitude = longitude;
             Latitude = latitude;
-            Geobase = geobase;
-            Geobaseid = geobaseid;
+            Country = country;
+            Sun = sun;
         }
 
         public override string ToString()
         {
             return Name + ", " + Country +
-                ":\nAltitude: " + Altitude + ", Latitude: " + Latitude + ", Longitude: " + Longitude +
-                ", Geobase: " + Geobase + ", Geobase ID: " + Geobaseid;
+                ":\nLatitude: " + Latitude + ", Longitude: " + Longitude +
+                "\n" + Sun.ToString();
         }
     }
 }

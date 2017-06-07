@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using WeatherLibrary;
 
 namespace MainProgram
@@ -14,8 +15,16 @@ namespace MainProgram
                                                             WeatherDataServiceFactory.WeatherDataKind.OPEN_WEATHER_MAP);
             try
             {
-                WeatherData data = service.GetWeatherData(new Location("Hod Hasharon", "Israel"));
-                Console.WriteLine(data);
+                WeatherData weatherData = service.GetWeatherData(new Location("Hod Hasharon", "IL"));
+
+                Console.WriteLine(weatherData);
+
+                List<WeatherData> forecast = service.GetForecast(new Location("Hod Hasharon", "IL"));
+
+                foreach (var t in forecast)
+                {
+                    Console.WriteLine(t);
+                }
             }
             catch (WeatherDataServiceException e)
             {
