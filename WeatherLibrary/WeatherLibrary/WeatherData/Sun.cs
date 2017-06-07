@@ -1,9 +1,6 @@
 ﻿namespace WeatherLibrary
 {
-    /// <summary>
-    /// Represents info regarding sunset and sunrise.
-    /// </summary>
-    class Sun
+    public class Sun
     {
         public string Sunrise { get; set; }
         public string Sunset { get; set; }

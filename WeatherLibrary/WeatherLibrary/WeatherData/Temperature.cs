@@ -1,6 +1,6 @@
 ﻿namespace WeatherLibrary
 {
-    class Temperature
+    public class Temperature
     {
         public string TemperatureUnit { get; set; }
         public string TemperatureValue { get; set; }

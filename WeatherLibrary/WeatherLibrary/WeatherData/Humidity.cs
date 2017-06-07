@@ -1,6 +1,6 @@
 ﻿namespace WeatherLibrary
 {
-    class Humidity
+    public class Humidity
     {
         public string HumidityValue { get; set; }
         public string HumidityUnit { get; set; }

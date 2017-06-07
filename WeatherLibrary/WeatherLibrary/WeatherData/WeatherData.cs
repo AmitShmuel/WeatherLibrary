@@ -3,7 +3,7 @@
     /// <summary>
     /// Represents a weather data XML DOM from http://openweathermap.org.
     /// </summary>
-    class WeatherData
+    public class WeatherData
     {
         public Location Location{ get; set; }
         public TimeSpan TimeSpan { get; set; }

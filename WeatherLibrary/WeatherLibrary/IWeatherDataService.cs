@@ -6,7 +6,7 @@ namespace WeatherLibrary
     /// An interface represents a weather service in which all services must implement.
     /// Includes different methods retrieving weather data.
     /// </summary>
-    interface IWeatherDataService
+    public interface IWeatherDataService
     {
         /// <summary>
         /// Retrieves a WeatherData object filled with the data given from the service.

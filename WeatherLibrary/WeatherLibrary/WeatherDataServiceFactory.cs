@@ -4,7 +4,7 @@
     /// Represents the factory method in charge of
     /// retrieving the IWeatherDataService singeltons kinds.
     /// </summary>
-    static class WeatherDataServiceFactory
+    public static class WeatherDataServiceFactory
     {
         /// <summary>
         /// Factory method retrieving different kind of IWeatherDataService singletons.

@@ -1,9 +1,6 @@
 ﻿namespace WeatherLibrary
 {
-    /// <summary>
-    /// Represents a time span of a forecast.
-    /// </summary>
-    class TimeSpan
+    public class TimeSpan
     {
         public string FromTime { get; set; }
         public string ToTime { get; set; }

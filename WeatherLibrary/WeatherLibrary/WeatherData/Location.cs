@@ -3,7 +3,7 @@
     /// <summary>
     /// Represents the location of the weather data.
     /// </summary>
-    class Location
+    public class Location
     {
         public string Id { get; set; }
         public string Name { get; set; }

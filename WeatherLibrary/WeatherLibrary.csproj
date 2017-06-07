@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -49,7 +52,6 @@
     <Compile Include="WeatherLibrary\WeatherData\Humidity.cs" />
     <Compile Include="WeatherLibrary\WeatherData\Location.cs" />
     <Compile Include="WeatherLibrary\OpenWeatherMapService.cs" />
-    <Compile Include="WeatherLibraryDemoProgram.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WeatherLibrary\WeatherData\Pressure.cs" />
     <Compile Include="WeatherLibrary\WeatherData\Sun.cs" />
@@ -58,6 +60,7 @@
     <Compile Include="WeatherLibrary\WeatherDataServiceException.cs" />
     <Compile Include="WeatherLibrary\WeatherDataServiceFactory.cs" />
     <Compile Include="WeatherLibrary\WeatherData\Wind.cs" />
+    <Compile Include="WeatherLibrary\WeatherLibraryDemoProgram.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

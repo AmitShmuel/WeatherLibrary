@@ -1,6 +1,6 @@
 ﻿namespace WeatherLibrary
 {
-    class Wind
+    public class Wind
     {
         public string SpeedValue { get; set; }
         public string SpeedName { get; set; }

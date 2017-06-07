@@ -1,6 +1,6 @@
 ﻿namespace WeatherLibrary
 {
-    class Clouds
+    public class Clouds
     {
         public string CloudsValue { get; set; }
         public string CloudsName { get; set; }
