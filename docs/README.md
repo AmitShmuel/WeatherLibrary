@@ -8,8 +8,8 @@ The project was initially developed in the Programming Languages course instruct
 
 © 2017 - The Dept. of Software Engineering, Shenkar: Engineering. Design. Art.
 
-![Class Diagram](/docs/ClassDiagram.PNG)
+![Class Diagram](/ClassDiagram.PNG)
 
-![How To Use](/docs/HowToUse.PNG)
+![How To Use](/HowToUse.PNG)
 
-![WeatherDataXML](/docs/WeatherDataXML.PNG)
+![WeatherDataXML](/WeatherDataXML.PNG)
