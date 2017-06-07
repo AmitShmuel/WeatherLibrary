@@ -1,4 +1,4 @@
-﻿### Weather Library For Developers
+﻿## Weather Library For Developers
 
 Welcome, this library was developed in order to help C# developers easily retrieve weather data from different places around the world. 
 
